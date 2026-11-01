@@ -1,0 +1,16 @@
+[
+  {
+    "id": "test-apple-1",
+    "filename": "neurocanvas_apple_sample.png",
+    "url": "/static/generated/neurocanvas_apple_sample.png",
+    "prompt": "A photograph of a vibrant red apple sitting on a rustic wooden table",
+    "model": "z_image_turbo_bf16.safetensors",
+    "engine": "comfyui",
+    "width": 1024,
+    "height": 1024,
+    "aspectRatio": "1:1",
+    "sizeBytes": 1391583,
+    "durationMs": 985460,
+    "createdAt": "2026-10-31T13:05:11.095Z"
+  }
+]

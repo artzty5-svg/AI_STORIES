@@ -1,0 +1,27 @@
+{
+  "name": "neurocanvas-ai-studio",
+  "version": "2.0.0",
+  "description": "Production-Ready General-Purpose AI Image & Video Studio with MERN and ComfyUI on Apple Silicon",
+  "scripts": {
+    "start": "node scripts/start.js",
+    "dev": "node scripts/start.js",
+    "server": "node server/server.js",
+    "client": "npm --prefix client run dev",
+    "build:client": "npm --prefix client run build",
+    "test": "node --test server/test/engine.test.js",
+    "install:all": "npm --prefix server install && npm --prefix client install"
+  },
+  "keywords": [
+    "comfyui",
+    "image-generation",
+    "ai-studio",
+    "mern",
+    "apple-silicon",
+    "img2img"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "concurrently": "^9.1.2"
+  }
+}
